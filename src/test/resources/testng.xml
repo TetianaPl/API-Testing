@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API tests run" parallel="methods"  thread-count="3">
+
+    <test name="API tests">
+        <classes>
+            <class name="jsonplaceholder.ApiTests" />
+        </classes>
+    </test>
+
+</suite>
